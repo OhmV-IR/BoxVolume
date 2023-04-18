@@ -4,11 +4,11 @@ while(invalidinput):
     depth = input("What is the depth of the box(m): ")
     invalidinput = False
     try: 
-        sides = int(sides)
-        depth = int(depth)
+        sides = float(sides)
+        depth = float(depth)
     except:
-        print("error converting input to integer please try again")
+        print("error converting input to float please try again")
         invalidinput = True
 volume = sides * 4 * depth
-print(str(volume) + 'm³')
+print('volume: ' +str(volume) + 'm³')
 print("cube area: " + str(sides * 4) + 'm²')
