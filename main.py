@@ -11,4 +11,4 @@ while(invalidinput):
         invalidinput = True
 volume = sides * 4 * depth
 print('volume: ' +str(volume) + 'm³')
-print("cube area: " + str(sides * 4) + 'm²')
+print("cube face area: " + str(sides * 4) + 'm²')
